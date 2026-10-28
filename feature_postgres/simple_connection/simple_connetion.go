@@ -11,7 +11,7 @@ import (
 func CheckConnection() {
 	ctx := context.Background()
 
-	conn, err := pgx.Connect(ctx, "postgres://postgres:18022008fifArzu@localhost:5432/postgres")
+	conn, err := pgx.Connect(ctx, "postgres://postgres:ВведитеПароль@localhost:5432/postgres")
 	if err != nil {
 		panic(err)
 	}
